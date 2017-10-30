@@ -1,0 +1,18 @@
+version: '2'
+catalog:
+  name: whoami
+  version: latest
+  description: Whoami for test
+  minimum_rancher_version: v0.59.0
+  maintainer: "Thibaut Mottet <thibaut.mottet@gmail.com>"
+  uuid: whoami-0
+  questions:
+    - variable: "url"
+      description: "Entry point URL"
+      label: "URL"
+      required: true
+      type: "string"
+services:
+  whoami:
+    scale: 1
+    start_on_create: true

@@ -1,0 +1,7 @@
+name: Whoami
+description: "Test your configuration"
+version: latest
+category: Test
+maintainer: "Thibaut Mottet <thibaut.mottet@gmail.com>"
+minimum_rancher_version: v0.59.0
+license:
