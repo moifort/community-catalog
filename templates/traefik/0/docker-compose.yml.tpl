@@ -1,7 +1,7 @@
 version: '2'
 services:
     traefik:
-        image: pupscan/alpine-traefik:latest
+        image: rawmind/alpine-traefik:1.4.0-4
         environment:
             CATTLE_ACCESS_KEY: ${cattle_access_key}
             CATTLE_SECRET_KEY: ${cattle_secret_key}
