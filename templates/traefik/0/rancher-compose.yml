@@ -1,7 +1,7 @@
 version: '2'
 catalog:
   name: traefik
-  version: latest
+  version: 1.4.0
   description: Traefik reverse proxy and load balancer
   minimum_rancher_version: v0.59.0
   maintainer: "Thibaut Mottet <thibaut.mottet@gmail.com>"
