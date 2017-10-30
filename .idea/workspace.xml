@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0727ed09-ef9f-4d82-809a-2b33c1e281d1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.drone.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/alidns/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/alidns/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/alidns/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/alidns/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/alidns/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/alidns/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/alidns/catalogIcon-alidns.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/alidns/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/autospotting/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/autospotting/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/autospotting/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/autospotting/catalogIcon-auttospotting.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/autospotting/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/aws-spot-instance-helper/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/aws-spot-instance-helper/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/aws-spot-instance-helper/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/aws-spot-instance-helper/catalogIcon-rahc.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/aws-spot-instance-helper/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/bind9/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/bind9/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/bind9/catalogIcon-bind9.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/bind9/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/cloudflare/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/cloudflare/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/cloudflare/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/cloudflare/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/cloudflare/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/cloudflare/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/cloudflare/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/cloudflare/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/cloudflare/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/cloudflare/4/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/cloudflare/4/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/cloudflare/4/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/cloudflare/catalogIcon-cloudflare.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/cloudflare/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/digitalocean-dns/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/digitalocean-dns/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/digitalocean-dns/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/digitalocean-dns/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/digitalocean-dns/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/digitalocean-dns/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/digitalocean-dns/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/digitalocean-dns/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/digitalocean-dns/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/digitalocean-dns/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/digitalocean-dns/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/digitalocean-dns/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/digitalocean-dns/catalogIcon-digitalocean-dns.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/digitalocean-dns/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsimple/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsimple/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsimple/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsimple/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsimple/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsimple/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsimple/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsimple/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsimple/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsimple/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsimple/catalogIcon-dnsimple.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsimple/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/4/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/4/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/4/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/catalogIcon-dnsupdate-rfc2136.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/dnsupdate-rfc2136/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/gandi-dns/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/gandi-dns/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/gandi-dns/catalogIcon-gandidns.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/gandi-dns/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/infoblox/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/infoblox/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/infoblox/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/infoblox/catalogIcon-infoblox.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/infoblox/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/mesos/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/mesos/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/mesos/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/mesos/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/mesos/catalogIcon-mesos.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/mesos/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/pointhq/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/pointhq/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/pointhq/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/pointhq/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/pointhq/catalogIcon-pointhq.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/pointhq/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/portainer/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/portainer/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/portainer/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/portainer/catalogIcon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/portainer/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/powerdns-external-dns/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/powerdns-external-dns/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/powerdns-external-dns/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/powerdns-external-dns/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/powerdns-external-dns/catalogIcon-powerdns.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/powerdns-external-dns/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/swarm/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/swarm/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/swarm/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/swarm/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/swarm/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/swarm/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/swarm/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/swarm/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/swarm/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/swarm/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/swarm/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/swarm/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/swarm/catalogIcon-swarm.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/infra-templates/swarm/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/integration/core/test_catalog.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/integration/requirements.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/integration/setup.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/integration/tox.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/mongo-controller.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/mongo-master.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/mongo-sec-service.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/catalogIcon-mongodb.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/MongoDB/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/0/grafana-rc.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/0/grafana-srv.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/0/influxdb-rc.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/0/influxdb-srv.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/0/node-exporter-rc.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/0/node-exporter-srv.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/0/prometheus-rancher-exporter-rc.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/0/prometheus-rancher-exporter-srv.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/0/prometheus-rc.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/0/prometheus-srv.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/0/ranch-eye-rc.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/0/ranch-eye-srv.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/catalogIcon-prometheus.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/Prometheus/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/cassandra/0/cassandra-controller.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/cassandra/0/cassandra-service.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/cassandra/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/cassandra/catalogIcon-cassandra.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/cassandra/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/cloud9/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/cloud9/0/cloud9-sdk-ingress.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/cloud9/0/cloud9-sdk-rc.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/cloud9/0/cloud9-sdk-service.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/cloud9/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/cloud9/catalogIcon-cloud9-sdk.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/cloud9/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/0/ghost-service.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/0/ghost.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/0/mysql-service.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/0/mysql.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/catalogIcon-ghost.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/ghost/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/0/frontend-controller.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/0/frontend-service.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/0/redis-master-controller.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/0/redis-master-service.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/0/redis-slave-controller.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/0/redis-slave-service.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/catalogIcon-guestbook.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/guestbook/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/heapster/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/heapster/0/grafana-service.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/heapster/0/heapster-rc.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/heapster/0/heapster-service.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/heapster/0/influx-grafana-rc.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/heapster/0/influxdb-service.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/heapster/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/heapster/catalogIcon-heapster.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/heapster/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/kafka/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/kafka/0/kafka-rc.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/kafka/0/kafka-service.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/kafka/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/kafka/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/kafka/1/kafka-rc.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/kafka/1/kafka-service.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/kafka/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/kafka/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/kafka/2/kafka-rc.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/kafka/2/kafka-service.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/kafka/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/kafka/catalogIcon-kafka.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/kafka/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/minecraft/0/minecraft-svc.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/minecraft/0/minecraft.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/minecraft/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/minecraft/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/minecraft/catalogIcon-minecraft.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/minecraft/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/rabbitmq/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/rabbitmq/0/rabbitmq-rc.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/rabbitmq/0/rabbitmq-svc.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/rabbitmq/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/rabbitmq/catalogIcon-rabbitmq.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/rabbitmq/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/redis/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/redis/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/redis/0/redis-master.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/redis/0/redis-rc.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/redis/0/redis-sentinel-rc.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/redis/0/redis-sentinel-service.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/redis/catalogIcon-redis.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/redis/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/spark-master-controller.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/spark-master-service.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/spark-webui.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/spark-worker-controller.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/zeppelin-controller.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/spark/0/zeppelin-service.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/spark/catalogIcon-spark.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/spark/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/sysdig-cloud/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/sysdig-cloud/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/sysdig-cloud/0/sysdig-daemonset.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/sysdig-cloud/catalogIcon-sysdig.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/sysdig-cloud/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/traefik/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/traefik/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/traefik/0/traefik-rc.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/traefik/catalogIcon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/traefik/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/weave-cloud/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/weave-cloud/0/weave-cloud-installer-job.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/weave-cloud/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/weave-cloud/catalogIcon-weave-cloud.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/weave-cloud/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/wordpress/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/wordpress/0/mysql.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/wordpress/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/wordpress/0/wordpress.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/wordpress/catalogIcon-wordpress.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/wordpress/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/zookeeper/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/zookeeper/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/zookeeper/0/zk-rc.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/zookeeper/0/zk-service.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/zookeeper/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/zookeeper/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/zookeeper/1/zk-rc.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/zookeeper/1/zk-service.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/zookeeper/catalogIcon-zookeeper.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/kubernetes-templates/zookeeper/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/aliyunecs/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/aliyunecs/0/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/aliyunecs/catalogIcon-aliyunecs.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/aliyunecs/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/cloudca/0/checksum" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/cloudca/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/cloudca/0/uiUrl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/cloudca/0/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/cloudca/1/checksum" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/cloudca/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/cloudca/1/uiUrl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/cloudca/1/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/cloudca/catalogIcon-cloudca.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/cloudca/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/ecl/0/checksum" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/ecl/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/ecl/0/uiUrl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/ecl/0/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/ecl/catalogIcon-ecl.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/ecl/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/interoutevdc/0/checksum" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/interoutevdc/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/interoutevdc/0/uiUrl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/interoutevdc/0/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/interoutevdc/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/interoutevdc/1/uiUrl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/interoutevdc/1/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/interoutevdc/catalogIcon-interoutevdc.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/interoutevdc/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/oneandone/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/oneandone/0/uiUrl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/oneandone/0/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/oneandone/catalogIcon-oneandone.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/oneandone/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/opennebula/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/opennebula/0/uiUrl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/opennebula/0/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/opennebula/catalogIcon-opennebula.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/opennebula/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/p2pub/0/checksum" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/p2pub/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/p2pub/0/uiUrl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/p2pub/0/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/p2pub/catalogIcon-p2pub.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/p2pub/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/profitbricks/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/profitbricks/0/uiUrl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/profitbricks/0/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/profitbricks/catalogIcon-profitbricks.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/profitbricks/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/qingcloud/0/checksum" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/qingcloud/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/qingcloud/0/uiUrl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/qingcloud/0/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/qingcloud/catalogIcon-qingcloud.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/qingcloud/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/0/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/1/checksum" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/1/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/2/checksum" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/2/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/3/checksum" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/3/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/4/checksum" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/4/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/4/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/5/checksum" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/5/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/5/url" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/catalogIcon-vultr.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/machine-templates/vultr/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/chronos/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/chronos/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/chronos/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/chronos/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/chronos/catalogIcon-chronos.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/chronos/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/elasticsearch/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/elasticsearch/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/elasticsearch/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/elasticsearch/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/elasticsearch/catalogIcon-elasticsearch.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/elasticsearch/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/kafka/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/kafka/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/kafka/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/kafka/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/kafka/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/kafka/catalogIcon-kafka.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/kafka/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/marathon/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/marathon/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/marathon/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/marathon/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/marathon/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/marathon/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/marathon/catalogIcon-marathon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/marathon/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/mesos-dns/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/mesos-dns/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/mesos-dns/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/mesos-dns/catalogIcon-mesos-dns.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/mesos-dns/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/mesos/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/mesos/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/mesos/catalogIcon-mesos.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/mesos/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/zookeeper/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/zookeeper/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/zookeeper/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/zookeeper/catalogIcon-zookeeper.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/mesos-templates/zookeeper/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scripts/bootstrap" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scripts/ci" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scripts/repo.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scripts/test" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/cassandra/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/cassandra/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/cassandra/catalogIcon-cassandra.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/cassandra/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/ghost/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/ghost/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/ghost/catalogIcon-ghost.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/ghost/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/scylla/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/scylla/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/scylla/catalogIcon-scylla.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/scylla/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/wordpress/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/wordpress/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/wordpress/catalogIcon-wordpress.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/wordpress/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/zookeeper/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/zookeeper/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/zookeeper/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/zookeeper/catalogIcon-zookeeper.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/swarm-templates/zookeeper/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Concrete5/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Concrete5/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Concrete5/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Concrete5/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Concrete5/catalogIcon-concrete5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Concrete5/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/MongoDB/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/MongoDB/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/MongoDB/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/MongoDB/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/MongoDB/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/MongoDB/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/MongoDB/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/MongoDB/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/MongoDB/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/MongoDB/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/MongoDB/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/MongoDB/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/MongoDB/catalogIcon-mongodb.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/MongoDB/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/4/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/4/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/4/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/5/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/5/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/5/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/catalogIcon-prometheus.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/Prometheus/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/adminer/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/adminer/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/adminer/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/adminer/catalogIcon-registry.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/adminer/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/alfresco/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/alfresco/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/alfresco/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/alfresco/catalogIcon-alfresco.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/alfresco/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/artifactory-oss/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/artifactory-oss/0/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/artifactory-oss/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/artifactory-oss/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/artifactory-oss/catalogIcon-artifactory.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/artifactory-oss/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/asciinema-org/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/asciinema-org/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/asciinema-org/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/asciinema-org/catalogIcon-asciinema-org.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/asciinema-org/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/avi/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/avi/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/avi/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/avi/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/avi/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/avi/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/avi/catalogIcon-avi.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/avi/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/aws-elbv1/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/aws-elbv1/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/aws-elbv1/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/aws-elbv1/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/aws-elbv1/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/aws-elbv1/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/aws-elbv1/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/aws-elbv1/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/aws-elbv1/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/aws-elbv1/catalogIcon-aws-elbv1.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/aws-elbv1/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/bind9/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/bind9/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/bind9/catalogIcon-bind9.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/bind9/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/bitbucket/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/bitbucket/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/bitbucket/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/bitbucket/catalogIcon-bitbucket.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/bitbucket/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloud9/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloud9/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloud9/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloud9/catalogIcon-cloud9-sdk.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloud9/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloudflare/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloudflare/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloudflare/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloudflare/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloudflare/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloudflare/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloudflare/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloudflare/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloudflare/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloudflare/catalogIcon-cloudflare.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/cloudflare/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/confluence/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/confluence/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/confluence/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/confluence/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/confluence/catalogIcon-confluence.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/confluence/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul-registrator/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul-registrator/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul-registrator/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul-registrator/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul-registrator/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul-registrator/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul-registrator/catalogIcon-consul.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul-registrator/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul/1/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul/catalogIcon-consul.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/consul/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/convoy-efs/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/convoy-efs/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/convoy-efs/catalogIcon-convoy.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/convoy-efs/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/4/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/4/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/4/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/5/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/5/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/5/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/6/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/6/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/6/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/catalogIcon-datadog.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/datadog/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsimple/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsimple/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsimple/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsimple/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsimple/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsimple/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsimple/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsimple/catalogIcon-dnsimple.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsimple/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsupdate-rfc2136/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsupdate-rfc2136/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsupdate-rfc2136/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsupdate-rfc2136/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsupdate-rfc2136/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsupdate-rfc2136/catalogIcon-dnsupdate-rfc2136.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dnsupdate-rfc2136/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dokuwiki/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dokuwiki/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dokuwiki/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dokuwiki/catalogIcon-dokuwiki.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/dokuwiki/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/2/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/3/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/4/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/4/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/4/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/catalogIcon-droneio.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drone/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/droneworkers/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/droneworkers/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/droneworkers/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/droneworkers/catalogIcon-droneio.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/droneworkers/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drupal/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drupal/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drupal/1/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drupal/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drupal/catalogIcon-drupal.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/drupal/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/ecr/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/ecr/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/ecr/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/ecr/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/ecr/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/ecr/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/ecr/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/ecr/catalogIcon-ecr.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/ecr/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/elasticsearch-2/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/elasticsearch-2/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/elasticsearch-2/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/elasticsearch-2/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/elasticsearch-2/catalogIcon-elasticsearch.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/elasticsearch-2/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/elasticsearch/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/elasticsearch/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/elasticsearch/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/elasticsearch/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/elasticsearch/catalogIcon-elasticsearch.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/elasticsearch/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/es-cluster/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/es-cluster/0/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/es-cluster/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/es-cluster/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/es-cluster/1/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/es-cluster/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/es-cluster/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/es-cluster/2/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/es-cluster/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/es-cluster/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/es-cluster/3/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/es-cluster/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/es-cluster/catalogIcon-elasticsearch.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/es-cluster/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/4/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/4/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/4/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/5/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/5/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/5/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/catalogIcon-etcd.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/etcd-ha/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/f5/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/f5/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/f5/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/f5/catalogIcon-f5.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/f5/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/fbctf/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/fbctf/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/fbctf/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/fbctf/catalogIcon-fbctf.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/fbctf/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/galera/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/galera/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/galera/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/galera/catalogIcon-galera.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/galera/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/ghost/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/ghost/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/ghost/catalogIcon-ghost.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/ghost/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab-multi-runner/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab-multi-runner/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab-multi-runner/1/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab-multi-runner/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab-multi-runner/2/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab-multi-runner/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab-multi-runner/catalogIcon-gitlab-multi-runner.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab-multi-runner/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab/catalogIcon-gitlab.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gitlab/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gocd-agent/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gocd-agent/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gocd-agent/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gocd-agent/catalogIcon-gocd-agent.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gocd-agent/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gocd-server/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gocd-server/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gocd-server/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gocd-server/catalogIcon-gocd-server.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gocd-server/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gocd/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gocd/0/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gocd/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gocd/catalogIcon-gocd.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gocd/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gogs/0/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gogs/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gogs/catalogIcon-gogs.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/gogs/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/grafana/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/grafana/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/grafana/catalogIcon-grafana.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/grafana/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/hadoop/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/hadoop/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/hadoop/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/hadoop/catalogIcon-hadoop.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/hadoop/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/influxdb/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/influxdb/0/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/influxdb/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/influxdb/catalogIcon-influxdb.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/influxdb/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/iron-functions/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/iron-functions/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/iron-functions/catalogIcon-iron-functions.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/iron-functions/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/janitor/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/janitor/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/janitor/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/janitor/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/janitor/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/janitor/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/janitor/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/janitor/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/janitor/4/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/janitor/4/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/janitor/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/janitor/catalogIcon-janitor.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/janitor/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-ci/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-ci/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-ci/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-ci/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-ci/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-ci/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-ci/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-ci/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-ci/catalogIcon-jenkins-ci.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-ci/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-swarm/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-swarm/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-swarm/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-swarm/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-swarm/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-swarm/catalogIcon-jenkins-ci.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/jenkins-swarm/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kafka/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kafka/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kafka/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kafka/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kafka/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kafka/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kafka/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kafka/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kafka/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kafka/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kafka/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kafka/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kafka/catalogIcon-kafka.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kafka/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/keepalived/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/keepalived/0/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/keepalived/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/keepalived/catalogIcon-keepalived.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/keepalived/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kibana/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kibana/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kibana/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kibana/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kibana/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kibana/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kibana/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kibana/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kibana/catalogIcon-kibana.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/kibana/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/4/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/4/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/4/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/catalogIcon-letsencrypt0.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/letsencrypt/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/liferay/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/liferay/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/liferay/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/liferay/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/liferay/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/liferay/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/liferay/catalogIcon-liferay.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/liferay/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logentries/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logentries/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logentries/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logentries/catalogIcon-logentries.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logentries/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logmatic/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logmatic/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logmatic/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logmatic/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logmatic/catalogIcon-logmatic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logmatic/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logspout/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logspout/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logspout/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logspout/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logspout/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logspout/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logspout/catalogIcon-gliderlabs.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logspout/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logstash/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logstash/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logstash/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logstash/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logstash/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logstash/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logstash/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logstash/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logstash/catalogIcon-logstash.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/logstash/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/meanshop/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/meanshop/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/meanshop/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/meanshop/catalogIcon-meanshop.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/meanshop/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/minecraft/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/minecraft/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/minecraft/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/minecraft/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/minecraft/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/minecraft/catalogIcon-minecraft.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/minecraft/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/minio/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/minio/0/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/minio/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/minio/catalogIcon-minio.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/minio/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/mumble/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/mumble/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/mumble/catalogIcon-mumble.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/mumble/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/mysql/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/mysql/0/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/mysql/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/mysql/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/mysql/catalogIcon-mysql.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/mysql/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/netdata/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/netdata/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/netdata/catalogIcon-netdata.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/netdata/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/neuvector/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/neuvector/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/neuvector/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/neuvector/catalogIcon-neuvector.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/neuvector/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/nextcloud/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/nextcloud/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/nextcloud/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/nextcloud/catalogIcon-nextcloud.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/nextcloud/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/nuxeo/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/nuxeo/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/nuxeo/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/nuxeo/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/nuxeo/catalogIcon-nuxeo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/nuxeo/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/odoo/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/odoo/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/odoo/catalogIcon-odoo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/odoo/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openfaas/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openfaas/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openfaas/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openfaas/catalogIcon-openfaas.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openfaas/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openproject/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openproject/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openproject/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openproject/catalogIcon-openproject.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openproject/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-httpbasic/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-httpbasic/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-httpbasic/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-httpbasic/catalogIcon-openvpn-httpbasic.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-httpbasic/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-httpdigest/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-httpdigest/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-httpdigest/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-httpdigest/catalogIcon-openvpn-httpdigest.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-httpdigest/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-ldap/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-ldap/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-ldap/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-ldap/catalogIcon-openvpn-ldap.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-ldap/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-rancherlocal/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-rancherlocal/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-rancherlocal/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-rancherlocal/catalogIcon-openvpn-rancherlocal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/openvpn-rancherlocal/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/owncloud/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/owncloud/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/owncloud/catalogIcon-owncloud.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/owncloud/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/plone/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/plone/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/plone/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/plone/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/plone/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/plone/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/plone/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/plone/catalogIcon-plone.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/plone/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/pointhq/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/pointhq/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/pointhq/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/pointhq/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/pointhq/catalogIcon-pointhq.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/pointhq/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/portworx/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/portworx/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/portworx/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/portworx/catalogIcon-portworx.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/portworx/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/postgres/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/postgres/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/postgres/1/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/postgres/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/postgres/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/postgres/catalogIcon-postgres.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/postgres/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/powerdns-external-dns/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/powerdns-external-dns/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/powerdns-external-dns/catalogIcon-powerdns.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/powerdns-external-dns/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/0/singlehost.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/1/distributed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/2/singlehost.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/3/distributed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/4/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/4/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/4/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/catalogIcon-vmwareharbor.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/project-harbor/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/puppet-standalone/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/puppet-standalone/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/puppet-standalone/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/puppet-standalone/catalogIcon-puppet.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/puppet-standalone/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/pxc/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/pxc/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/pxc/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/pxc/catalogIcon-pxc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/pxc/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/quasardb-community/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/quasardb-community/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/quasardb-community/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/quasardb-community/catalogIcon-quasardb-community.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/quasardb-community/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-3/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-3/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-3/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-3/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-3/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-3/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-3/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-3/2/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-3/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-3/catalogIcon-rabbitmq.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-3/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-examples/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-examples/0/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-examples/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-examples/catalogIcon-rabbitmq.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rabbitmq-examples/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rancher-backup/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rancher-backup/0/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rancher-backup/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rancher-backup/catalogIcon-rancher-backup.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rancher-backup/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rancher-bench-security/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rancher-bench-security/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rancher-bench-security/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rancher-bench-security/catalogIcon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rancher-bench-security/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/reactioncommerce/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/reactioncommerce/0/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/reactioncommerce/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/reactioncommerce/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/reactioncommerce/catalogIcon-reactioncommerce.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/reactioncommerce/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/redmine/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/redmine/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/redmine/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/redmine/catalogIcon-redmine.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/redmine/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry-convoy/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry-convoy/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry-convoy/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry-convoy/catalogIcon-registry.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry-convoy/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry/catalogIcon-registry.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/registry/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rethinkdb/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rethinkdb/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rethinkdb/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rethinkdb/catalogIcon-rethinkdb.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rethinkdb/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rexray/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rexray/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rexray/catalogIcon-rexray.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rexray/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rocket-chat/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rocket-chat/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rocket-chat/catalogIcon-rocket.chat.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/rocket-chat/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/scaleio/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/scaleio/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/scaleio/catalogIcon-scaleio.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/scaleio/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-agents/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-agents/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-agents/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-agents/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-agents/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-agents/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-agents/catalogIcon-secrets-bridge.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-agents/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-server/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-server/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-server/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-server/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-server/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-server/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-server/catalogIcon-secrets-bridge.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/secrets-bridge-server/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sematext/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sematext/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sematext/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sematext/catalogIcon-sematext.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sematext/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sentry/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sentry/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sentry/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sentry/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sentry/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sentry/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sentry/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sentry/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sentry/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sentry/catalogIcon-sentry.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sentry/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sonarqube/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sonarqube/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sonarqube/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sonarqube/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sonarqube/1/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sonarqube/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sonarqube/catalogIcon-sonarqube.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sonarqube/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sysdig-cloud/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sysdig-cloud/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sysdig-cloud/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sysdig-cloud/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sysdig-cloud/catalogIcon-sysdig-cloud.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sysdig-cloud/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sysdig/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sysdig/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sysdig/catalogIcon-sysdig.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/sysdig/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/taiga/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/taiga/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/taiga/catalogIcon-taiga.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/taiga/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/teamcity/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/teamcity/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/teamcity/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/teamcity/catalogIcon-teamcity.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/teamcity/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/thingsboard/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/thingsboard/0/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/thingsboard/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/thingsboard/catalogIcon-thingsboard.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/thingsboard/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/0/README.md" afterPath="$PROJECT_DIR$/templates/traefik/0/README.md" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/10/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/10/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/10/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/11/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/11/docker-compose.yml.tpl" afterPath="$PROJECT_DIR$/templates/traefik/0/docker-compose.yml.tpl" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/11/rancher-compose.yml" afterPath="$PROJECT_DIR$/templates/traefik/0/rancher-compose.yml" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/3/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/4/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/4/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/4/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/5/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/5/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/5/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/6/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/6/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/6/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/7/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/7/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/7/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/8/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/8/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/8/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/9/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/9/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/9/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/traefik/config.yml" afterPath="$PROJECT_DIR$/templates/traefik/config.yml" />
+      <change beforePath="$PROJECT_DIR$/templates/turtl/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/turtl/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/turtl/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/turtl/catalogIcon-turtl.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/turtl/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/weavescope/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/weavescope/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/weavescope/catalogIcon-weavescope.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/weavescope/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/wekan/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/wekan/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/wekan/catalogIcon-wekan.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/wekan/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/wekan/wekan-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/wordpress/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/wordpress/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/wordpress/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/wordpress/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/wordpress/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/wordpress/catalogIcon-wordpress.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/wordpress/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/xpilot/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/xpilot/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/xpilot/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/xpilot/catalogIcon-xpilot.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/xpilot/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zammad/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zammad/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zammad/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zammad/catalogIcon-zammad.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zammad/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zookeeper/0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zookeeper/0/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zookeeper/0/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zookeeper/1/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zookeeper/1/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zookeeper/1/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zookeeper/2/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zookeeper/2/docker-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zookeeper/2/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zookeeper/3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zookeeper/3/docker-compose.yml.tpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zookeeper/3/rancher-compose.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zookeeper/catalogIcon-zookeeper.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/templates/zookeeper/config.yml" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/traefik/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/traefik/0/docker-compose.yml.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-780">
+              <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rancher-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/traefik/0/rancher-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2385">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/traefik/0/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/traefik/config.yml" />
+        <option value="$PROJECT_DIR$/templates/traefik/11/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rancher-catalog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rancher-catalog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rancher-catalog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rancher-catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rancher-catalog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rancher-catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="traefik" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rancher-catalog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rancher-catalog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="traefik" type="462c0819:PsiDirectoryNode" />
+              <item name="0" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/traefik/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/traefik/0/docker-compose.yml.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/traefik/0/rancher-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/traefik/0/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/traefik/0/rancher-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/traefik/0/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/traefik/catalogIcon-Traefik.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/traefik/0/rancher-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/traefik/0/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/traefik/0/docker-compose.yml.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780">
+          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/traefik/0/rancher-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2385">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/traefik/catalogIcon-Traefik.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/traefik/0/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/traefik/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
