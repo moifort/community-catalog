@@ -1,6 +1,5 @@
 name: Traefik
-description: |
-  Traefik active load balancer
+description: "Modern HTTP reverse proxy and load balancer"
 version: latest
 category: Load Balancing
 maintainer: "Thibaut Mottet <thibaut.mottet@gmail.com>"
